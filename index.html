@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url("mobile.jpg");
+       
+    }
+    .container{
+        position:fixed;
+       align-self: center;
+        margin-left: 550px;
+        margin-top: 75px;
+        position: absolute;
+        width: 400px;
+        height: 600px;
+        border-radius: 22px;
+        box-shadow: white 4px right;
+        box-shadow: 5px 5px   22px rgb(224, 183, 106);
+    }
+    .img{
+        height: 600px;
+        width: 400px;
+        object-fit: cover;
+        border-radius :22px;
+        transition: 1s box-shadow;
+    }
+   .img:hover{
+    box-shadow: 10px 10px   22px rgb(224, 183, 106) ;
+   }
+    .data{
+        margin-top: -500px;
+    }
+    .username , .psswrd{
+    width: 80%;
+    height: 40px;
+    margin: 30px;
+    text-align: center;
+    font-size: 23px;
+    color: transparent;
+    border-radius: 22px;
+    border: none;
+    box-shadow: 2px 2px 50px black;
+    opacity: 50%;  
+    }
+    .username:hover, .psswrd:hover{
+        background-color: white;
+        opacity: 70%;
+    }
+
+    .btn , .btn1 , .btn2{
+        height: 70px;
+        width: 200px;
+        align-self: center;
+        border-radius: 50px;
+        border: none;
+        box-shadow: 2px 2px 50px black;
+        background-color: rgb(133, 209, 19);
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        opacity: 60%;
+    }
+    .btn1{
+        height: 40px;
+        width: 350px;
+        margin-top: 30px;
+        background-color: rgb(53, 109, 109);
+        font-weight: 400;
+        font-size:18px ;
+        text-transform: none;
+        opacity: 60%;
+    }
+    .btn2{
+        width: 100%;
+        border-radius:0%;
+        margin-top: 85px;
+        box-shadow: 2px 2px 50px black;
+        border-bottom-left-radius: 22px;
+        border-bottom-right-radius: 22px;
+        background-color: rgb(192, 48, 48);
+    }
+     .btn1:hover, .btn2:hover{
+        background-color: white;
+        opacity: 70%;
+    }
+
+
+
+</style>
+</div>
+
+<body style="text-align: center;">
+    <div class= "container" >
+      
+     <div class ="img" ><img src ="mobile.jpg" class ="img"></div>  
+     <div class ="data">
+         
+     <label for="username">
+         <input type="text" placeholder="User Name" class ="username">
+     </label>
+     <label for ="password">
+         <input type="password" placeholder ="Enter Password" class ="psswrd">
+     </label>
+     </div>
+     <div class ="button">
+         <label for ="btn">
+             <button type="submit"class ="btn" >Submit</button>
+         </label>
+         <div class ="button">
+            <label for ="btn">
+                <button type="submit"class ="btn1" >Register Here !</button>
+            </label>
+        </div>
+        <div class ="button">
+            <label for ="btn">
+                <button type="submit"class ="btn2" >C A N C E L</button>
+            </label>
+        </div>
+         
+
+    </div>
+    
+</body>
+</html>
